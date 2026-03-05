@@ -9,14 +9,6 @@ This project was built while learning the basics of **React Native navigation, l
 
 ---
 
-## Demo
-
-https://github.com/abhishek2k4/pokedex-rn/assets/Screenrecorder-2026-03-05-12-48-00-747.mp4
-
-*(Add a short screen recording of the app here)*
-
----
-
 ## Features
 
 • Pokémon grid layout using **FlatList**
