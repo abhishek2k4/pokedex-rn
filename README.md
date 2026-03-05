@@ -9,14 +9,6 @@ This project was built while learning the basics of **React Native navigation, l
 
 ---
 
-## Demo
-
-https://github.com/your-username/your-repo/assets/demo-video.mp4
-
-*(Add a short screen recording of the app here)*
-
----
-
 ## Features
 
 • Pokémon grid layout using **FlatList**
