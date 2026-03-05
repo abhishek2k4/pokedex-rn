@@ -1,50 +1,102 @@
-# Welcome to your Expo app 👋
+# Pokédex App (React Native)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A small Pokédex mobile app built while exploring **React Native and Expo**.
 
-## Get started
+The app fetches data from the PokéAPI and displays Pokémon in a clean grid layout.
+Tapping a Pokémon opens a detailed view with stats, abilities, and sprites.
 
-1. Install dependencies
+This project was built while learning the basics of **React Native navigation, layouts, and API handling**.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## Demo
 
-   ```bash
-   npx expo start
-   ```
+https://github.com/your-username/your-repo/assets/demo-video.mp4
 
-In the output, you'll find options to open the app in a
+*(Add a short screen recording of the app here)*
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Features
 
-## Get a fresh project
+• Pokémon grid layout using **FlatList**
+• Dynamic card colors based on Pokémon type
+• Pokémon detail screen with stats and abilities
+• Multiple Pokémon sprites (front/back/shiny)
+• Navigation using **Expo Router**
+• Data fetched from **PokéAPI**
 
-When you're ready, run:
+---
+
+## Tech Stack
+
+* React Native
+* Expo
+* TypeScript
+* Expo Router
+* PokéAPI
+
+---
+
+## Screenshots
+
+| Home Screen    | Details Screen |
+| -------------- | -------------- |
+| Add image here | Add image here |
+
+---
+
+## Installation
+
+Clone the repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/pokedex-react-native.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Navigate to the project
 
-## Learn more
+```bash
+cd pokedex-react-native
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Install dependencies
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+Run the project
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Then open the app in **Expo Go** or run it on an emulator.
+
+---
+
+## API Used
+
+PokéAPI
+https://pokeapi.co/
+
+---
+
+## Learning Goals
+
+This project was built to explore:
+
+* React Native layouts
+* Mobile navigation with Expo Router
+* Fetching and handling API data
+* Building grid-based UI with FlatList
+
+---
+
+## Future Improvements
+
+• Infinite scrolling Pokédex
+• Pokémon search feature
+• Better animations and transitions
+• Type-based UI themes
