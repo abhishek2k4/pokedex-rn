@@ -43,13 +43,13 @@ This project was built while learning the basics of **React Native navigation, l
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/pokedex-react-native.git
+git clone https://github.com/abhishek2k4/pokedex-rn.git
 ```
 
 Navigate to the project
 
 ```bash
-cd pokedex-react-native
+cd pokedex-rn
 ```
 
 Install dependencies
